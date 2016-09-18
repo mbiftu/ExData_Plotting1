@@ -1,4 +1,4 @@
-base <- "C:/Users/Moa/Desktop/coursera/expdata/household_power_consumption.txt"
+base <- "./expdata/household_power_consumption.txt"
 org <- read.table(base, header=TRUE, sep=";", stringsAsFactors=FALSE, dec=".")
 subsetorg <- org[org$Date %in% c("1/2/2007","2/2/2007") ,]
 
